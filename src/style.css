@@ -1,6 +1,30 @@
-h1 {
-    font-family: 'Playfair Display', serif;
+:root {
+    --branding-color: #FE0DAC;
+    --background-color: #F7FDFE;
+    --title-font: 'Playfair Display', serif;
 }
-h3 {
+body {
     font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+h1 {
+    font-family: var(--title-font);
+    font-size: 96px;
+}
+h4 {
+    font-size: 24px;
+    font-weight: 400;
+    color: #272142;
+    opacity: 0.7;
+}
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+.hero {
+    text-align: center;
+    margin-top: 250px;
+}
+.technologies {
+    margin-top: 190px;
 }
