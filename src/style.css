@@ -11,24 +11,77 @@ h1 {
     font-family: var(--title-font);
     font-size: 96px;
 }
+h2 {
+    font-size: 36px;
+    font-weight: 700;
+}
+h3 {
+    font-family: var(--title-font);
+}
 h4 {
     font-size: 24px;
     font-weight: 400;
     color: #272142;
     opacity: 0.7;
 }
-h2 {
-    font-size: 36px;
-    font-weight: 700;
-}
 .hero {
     text-align: center;
-    margin-top: 250px;
+    margin-top: 240px;
 }
 .technologies {
-    margin-top: 190px;
+    margin-top: 200px;
 }
-.animate__animated.animate__heartBeat {
-    --animate-duration: 2s;
-    --animate-delay: 5s;
+.icons {
+    margin: 87px 320px 228px 320px;
 }
+i {
+    font-size: 40px;
+}
+.html {
+    color: orangered;
+}
+.css {
+    color: rgb(60,156,215);
+}
+.js {
+    color: rgb(241,191,34);
+}
+.react {
+    color: rgb(81,228,255);
+}
+.icon {
+    max-height: 40px;
+}
+.git {
+    color: rgb(141, 14, 141);
+}
+.bootstrap {
+    color: rgb(111,17,244);
+}
+.work {
+    margin: 2779px 140px 105px;
+    background-color: var(--background-color);
+    border-radius: 20px;
+    padding: 49px 90px;
+}
+.lets-talk {
+    background-color: var(--branding-color);
+    color: black;
+    text-decoration: none;
+    padding: 18px 30px;
+    border-radius: 5px;
+}
+.lets-talk:hover {
+    background-color: #aaecf8;
+}
+.lets-talk:active {
+    background-color: #63e6fd;
+    box-shadow: 0 5px rgb(179, 179, 179);
+    transform: translateY(4px);
+  }
+.mail {
+    padding-bottom: 75px;
+    color: black;
+    text-decoration: none;
+}
+
