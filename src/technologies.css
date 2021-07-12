@@ -29,6 +29,12 @@ i {
 .bootstrap {
     color: rgb(111,17,244);
 }
+.linked {
+    color: rgb(3,113,174);
+}
+.at {
+    color: #e40499;
+}
 @media (max-width:576px) {
     .icons {
         margin: 87px auto 200px auto;
