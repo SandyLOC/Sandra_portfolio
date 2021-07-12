@@ -1,0 +1,43 @@
+.technologies {
+    margin-top: 200px;
+}
+.icons {
+    margin: 87px auto 150px auto;
+    max-width: 700px;
+}
+i {
+    font-size: 40px;
+}
+.icon {
+    max-height: 40px;
+}
+.html {
+    color: orangered;
+}
+.css {
+    color: rgb(60,156,215);
+}
+.js {
+    color: rgb(241,191,34);
+}
+.react {
+    color: rgb(81,228,255);
+}
+.git {
+    color: rgb(141, 14, 141);
+}
+.bootstrap {
+    color: rgb(111,17,244);
+}
+@media (max-width:576px) {
+    .icons {
+        margin: 87px auto 200px auto;
+        font-size: 14px;
+    }
+    i {
+        font-size: 30px;
+    }
+    .icon {
+        max-height: 30px;
+    }
+}

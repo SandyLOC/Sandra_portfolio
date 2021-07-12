@@ -3,6 +3,9 @@
     --background-color: #F7FDFE;
     --title-font: 'Playfair Display', serif;
 }
+.active {
+    color: var(--branding-color) !important;
+}
 body {
     font-family: 'Poppins', sans-serif;
     text-align: center;
@@ -25,41 +28,11 @@ h4 {
     opacity: 0.7;
 }
 .hero {
+    background-image: url(/photos/sand1.jpeg);
     text-align: center;
     margin: 60px 20px 0 20px;
     border: 5px double rgb(39, 33, 66, 0.7);
     padding: 180px 0px;
-}
-.technologies {
-    margin-top: 200px;
-}
-.icons {
-    margin: 87px auto 150px auto;
-    max-width: 700px;
-}
-i {
-    font-size: 40px;
-}
-.icon {
-    max-height: 40px;
-}
-.html {
-    color: orangered;
-}
-.css {
-    color: rgb(60,156,215);
-}
-.js {
-    color: rgb(241,191,34);
-}
-.react {
-    color: rgb(81,228,255);
-}
-.git {
-    color: rgb(141, 14, 141);
-}
-.bootstrap {
-    color: rgb(111,17,244);
 }
 .carousel-img {
     max-height: 400px;
@@ -78,17 +51,17 @@ i {
     border-radius: 20px;
     padding: 49px 90px;
 }
-.lets-talk {
+.button {
     background-color: var(--branding-color);
     color: black;
     text-decoration: none;
     padding: 18px 30px;
     border-radius: 5px;
 }
-.lets-talk:hover {
+.button:hover {
     background-color: #aaecf8;
 }
-.lets-talk:active {
+.button:active {
     background-color: #63e6fd;
     box-shadow: 0 5px rgb(179, 179, 179);
     transform: translateY(4px);
@@ -98,9 +71,31 @@ i {
     color: black;
     text-decoration: none;
 }
+.about-section {
+    margin-top: 160px;
+    text-align: left;
+    padding-right: 0 !important;
+}
+.introduction {
+    font-size: 44px;
+}
+.description {
+    font-size: 18px;
+    line-height: 1.8;
+}
+.picture {
+    max-height: 400px;
+}
 @media (max-width:768px) {
     h1{
         font-size: 66px;
+    }
+    .introduction {
+        font-size: 34px;
+    }
+    .description {
+        font-size: 14px;
+        line-height: 1.8;
     }
 }
 @media (max-width:576px) {
@@ -113,15 +108,9 @@ i {
     h4 {
         font-size: 20px;
     }
-    .icons {
-        margin: 87px auto 200px auto;
-        font-size: 14px;
-    }
-    i {
-        font-size: 30px;
-    }
-    .icon {
-        max-height: 30px;
+    .about-section {
+        margin-top: 210px;
+        text-align: center;
     }
     .work {
         padding: 39px 70px;
@@ -129,7 +118,7 @@ i {
     .work p {
         display: none;
     }
-    .lets-talk {
+    .button {
         display: flex;
         justify-content: center;
     }
