@@ -29,7 +29,7 @@ h4 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 10px 100px 60px;
+    padding: 10px 200px 60px;
 }
 .focus {
     color: var(--branding-color) !important;
@@ -58,7 +58,7 @@ h4 {
     max-width: 800px;
     background-color: var(--background-color);
     border-radius: 20px;
-    padding: 49px 90px;
+    padding: 38px 40px;
 }
 .button {
     background-color: var(--branding-color);
@@ -95,6 +95,9 @@ h4 {
 .picture {
     max-height: 400px;
 }
+.face {
+    border-radius: 12px;
+}
 .launch {
     color: var(--branding-color);
 }
@@ -111,6 +114,7 @@ h4 {
       background-repeat: no-repeat;
       background-position: center;
       background-size: cover;
+      padding-bottom: 30px;
   }
   .modal-body {
     text-align: left !important;
