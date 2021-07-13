@@ -1,3 +1,6 @@
+:root {
+    --branding-color: rgb(246,139,143);
+}
 .technologies {
     margin-top: 200px;
 }
@@ -33,7 +36,7 @@ i {
     color: rgb(3,113,174);
 }
 .at {
-    color: #e40499;
+    color: var(--branding-color);
 }
 @media (max-width:576px) {
     .icons {
