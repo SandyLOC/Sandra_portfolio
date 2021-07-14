@@ -16,7 +16,8 @@
     <link href="/src/technologies.css" rel="stylesheet" type="text/css"/>
     <title>Front-end developer - Sandra Lopez</title>
 </head>
-<body class="contact">
+<body>
+    <div class="contact">
   <nav class="navbar navbar-expand-lg navbar-light bg-none fixed-top">
     <div class="container">
       <a class="navbar-brand" href="../index.html"><strong>SL</strong></a>
@@ -47,36 +48,42 @@
 
             <h1 class="introduction mb-5">Contact me:</h1>
 
-<!--modal-->            
-<a type="button" class="launch" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="sandra_lopez@gmail.com"><i class="fas fa-at at"></i></a>
+<!--modal form-->            
+<a type="button" class="launch" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="sandra_lopez@gmail.com"><i class="far fa-envelope"></i></a>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">New message</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="mb-3">
-            <label for="recipient-name" class="col-form-label">Recipient:</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="mb-3">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
+        <div class="modal-body">
+        <form
+            action="https://formspree.io/f/xqkwdqbe"
+            method="POST"
+        >
+        <div class="mb-3">
+        <label for="recipient-name" class="col-form-label"></label>
+            Your email:
+            <input type="email" name="_replyto" class="form-control" >
+        </div>
+        <div class="mb-3">    
+        <label for="message-text" class="col-form-label"></label>
+            Message:
+            <textarea name="message" class="form-control"></textarea>
+        </div>
         </form>
+
+      </div>
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
+        <button type="submit" class="btn btn-primary">Send message</button>
       </div>
     </div>
   </div>
 </div>
-            <p class="description">Send me an email</p>
+<!--end of modal form-->
+            <p class="description">Send me a message</p>
             <a href="https://www.linkedin.com/in/sandra-pl/"><i class="fab fa-linkedin linked"></i></a>
             <a href="https://github.com/SandyLOC"><i class="fab fa-github git"></i></a>
             <p class="description">Let's connect</p>
@@ -89,6 +96,7 @@
     <br/>
   <h5><a href="mailto:sandra_lopez@gmail.com" class="mail">sandra_lopez@gmail.com</a> </h5>
 </footer>
+</div>
 <script src="/src/modal.js" type="text/javascript"></script>
 </body>
 </html>
