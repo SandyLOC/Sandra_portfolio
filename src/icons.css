@@ -1,18 +1,25 @@
+.nav-icon {
+    font-size: 18px;
+}
 .technologies {
     margin-top: 200px;
 }
 .icons {
     margin: 87px auto 150px auto;
-    max-width: 700px;
+    max-width: 650px;
 }
 i {
     font-size: 40px;
+    transition: all 200ms ease-in-out;
 }
 i:hover {
-    transition: all 200ms ease-in-out;
+    transform: scale(1.4);
 }
 .icon {
     max-height: 40px;
+}
+.icon:hover {
+    transform: scale(1.4);
 }
 .html {
     color: orangered;
