@@ -1,6 +1,3 @@
-:root {
-    --branding-color: rgb(246,139,143);
-}
 .technologies {
     margin-top: 200px;
 }
@@ -10,6 +7,9 @@
 }
 i {
     font-size: 40px;
+}
+i:hover {
+    transition: all 200ms ease-in-out;
 }
 .icon {
     max-height: 40px;
@@ -35,9 +35,7 @@ i {
 .linked {
     color: rgb(3,113,174);
 }
-.at {
-    color: var(--branding-color);
-}
+
 @media (max-width:576px) {
     .icons {
         margin: 87px auto 200px auto;
