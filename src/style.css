@@ -137,6 +137,10 @@ h4 {
   .modal-body {
     text-align: left !important;
 }
+.btn-primary {
+    background-color: var(--branding-color);
+    border-color: var(--branding-color);
+}
 .code {
     font-size: 10px;
 }

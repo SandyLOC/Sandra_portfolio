@@ -53,24 +53,28 @@
             <h1 class="introduction mb-5 mt-5">Contact me:</h1>
 
 <!--modal form-->            
-<a type="button" class="launch" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="sandra_lopez@gmail.com"><i class="far fa-envelope"></i></a>
+<a class="launch" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="sandra_lopez@gmail.com"><i class="far fa-envelope"></i></a>
 
 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
+        <h3>Send me a message</h3>
       </div>
         <div class="modal-body">
           <form name="contact" method="POST" data-netlify="true">
-            <p>
-              <label>Your Name: <input type="text" name="name" /></label>   
-            </p>
-            <p>
-              <label>Your Email: <input type="email" name="email" /></label>
-            </p>
-            <p>
-              <label>Message: <textarea name="message"></textarea></label>
-            </p>
+            <div class="mb-3">
+              <label class="col-form-label">Your Name: </label>
+              <input type="text" name="name" class="form-control"/>   
+            </div>
+            <div class="mb-3">
+              <label class="col-form-label">Your Email: </label>
+              <input type="email" name="email" class="form-control"/>
+            </div>
+            <div class="mb-3">
+              <label class="col-form-label">Message: </textarea></label>
+              <textarea name="message" class="form-control"></textarea>
+            </div>
 
             <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
