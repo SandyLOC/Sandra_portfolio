@@ -37,8 +37,11 @@ h4 {
     color: var(--branding-color) !important;
 }
 .hero {
-    background-color: rgb(246,139,143, 0.8);
-
+    background-color: rgb(246,139,143, 0.2);
+    background-image: url("/photos/cact22.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
     margin: 56px 0px 0px 0px;
     border: 2px double rgb(39, 33, 66, 0.1);
     padding: 150px 0px;
