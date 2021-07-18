@@ -37,14 +37,11 @@ h4 {
     color: var(--branding-color) !important;
 }
 .hero {
-    background-color: rgb(246,139,143, 0.2);
-    background-image: url("/photos/cact22.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    text-align: center;
+    background-color: rgb(246,139,143, 0.8);
+
     margin: 56px 0px 0px 0px;
     border: 2px double rgb(39, 33, 66, 0.1);
-    padding: 230px 0px;
+    padding: 150px 0px;
 }
 .fill-screen {
     background-color: var(--background-color);
@@ -118,7 +115,8 @@ h4 {
     border-radius: 14px;
 }
 .app {
-    background-color: rgb(246,139,143, 0.1);
+    background-color: rgb(207,220,205, 0.6);
+    border: 1px solid rgb(246,139,143);
     border-radius: 18px;
     margin-top: 30px;
     padding-top: 20px;
