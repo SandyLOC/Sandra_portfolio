@@ -1,6 +1,7 @@
 :root {
     --branding-color: rgb(246,139,143);
     --background-color: rgb(207,220,205);
+    --link-hover-color: rgb(239,218,170);
     --title-font:'Lobster Two', cursive;
 
 }
@@ -43,7 +44,11 @@ h4 {
     text-align: center;
     margin: 60px 0px 0px 0px;
     border: 2px double rgb(39, 33, 66, 0.7);
-    padding: 200px 0px;
+    padding: 220px 0px;
+}
+.fill-screen {
+    background-color: var(--background-color);
+    padding: 10px 0px 40px;
 }
 .carousel-img {
     max-height: 400px;
@@ -120,7 +125,7 @@ h4 {
 .launch:hover {
     color:black;
     cursor: pointer;
-    background-color: rgb(239,218,170);
+    background-color: var(--link-hover-color);
 }
 .launch:active {
     background-color: #63e6fd;

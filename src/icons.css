@@ -2,11 +2,14 @@
     font-size: 18px;
 }
 .technologies {
-    margin-top: 200px;
+    margin-top: 160px;
+    background-color: white;
+    max-width: 600px;
+    padding: 30px 10px 15px;
+    border-radius: 10px;
 }
 .icons {
-    margin: 87px auto 150px auto;
-    max-width: 650px;
+    margin: 50px auto 20px auto;
 }
 i {
     font-size: 40px;
@@ -42,10 +45,44 @@ i:hover {
 .linked {
     color: rgb(3,113,174);
 }
-
+.sections {
+    margin-top: 40px;
+    max-width: 300px;
+    background-color: white;
+    border: 2px solid var(--background-color);
+    border-radius: 10px;
+    padding: 20px;
+}
+.astronaut{
+    font-size: 80px;
+    transition: transform 2s;
+    background:-moz-linear-gradient(top, #cfdccd 0%, #f68b8f 100%); 
+    background: -webkit-linear-gradient(top, #cfdccd 0%,#f68b8f 100%); 
+    background: linear-gradient(to bottom, #cfdccd 0%,#f68b8f 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+.astronaut:hover {
+    transform: rotate(720deg);
+}
+.arrow {
+    font-size: 80px;
+    transition: transform 1s;
+    background:-moz-linear-gradient(top, #cfdccd 0%, #f68b8f 100%); 
+    background: -webkit-linear-gradient(top, #cfdccd 0%,#f68b8f 100%); 
+    background: linear-gradient(to bottom, #cfdccd 0%,#f68b8f 100%);
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+   -webkit-text-fill-color:transparent;
+}
+.arrow:hover {
+    transform: translate(20px, 20px);
+}
 @media (max-width:576px) {
     .icons {
-        margin: 87px auto 200px auto;
         font-size: 14px;
     }
     i {
